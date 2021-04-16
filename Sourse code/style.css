@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body, html { 
+    
+    background-image: url("../media/image.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:rgb(255 255 255);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-cont{
+    margin-left: 6%;
+}
+.left-cont h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+
+.right-cont{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.right-cont p{
+    font-size: 18px;
+    color:rgb(255 255 255);
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
